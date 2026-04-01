@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Academics | Benjamin Cerreta</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body class="argyle-bg">
+
+  <nav class="navbar">
+    <div class="logo">Benjamin Cerreta</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="academics.html" class="active">Academics</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="extracurriculars.html">Extracurriculars</a></li>
+    </ul>
+  </nav>
+
+  <div style="background:var(--white); padding:3rem 2rem 2rem;">
+    <div style="max-width:900px; margin:0 auto; text-align:center;">
+      <span class="section-label">Coursework</span>
+      <h1 style="margin-bottom:0.5rem;">Academics</h1>
+      <p class="page-subtitle">
+        Highlighted coursework from UNC Chapel Hill and Rochester Institute of Technology.
+      </p>
+    </div>
+  </div>
+ 
+
+  <!-- SCHOOL FILTER TABS -->
+  <section style="background:var(--white); padding:0rem 2rem 1rem;">
+    <div style="max-width:1100px; margin:0 auto;">
+      <div class="tab-bar" id="schoolTabs">
+        <button class="tab-btn active" data-filter="all">All Courses</button>
+        <button class="tab-btn" data-filter="unc">UNC Chapel Hill</button>
+        <button class="tab-btn" data-filter="rit">Rochester Institute of Technology</button>
+      </div>
+    </div>
+  </section>
+  <div class="argyle-strip"></div>
+
+  <!-- COURSE GRID -->
+  <section style="background:transparent; padding:0.5rem 2rem 4rem;">
+    <div style="max-width:1100px; margin:0 auto;">
+      <div class="course-grid" id="courseGrid">
+
+        <!-- ── UNC COURSES ── -->
+
+        <div class="course-card" data-school="unc">
+          <div class="course-meta">
+            <span class="course-code">INLS 201</span>
+            <span class="school-badge">UNC Chapel Hill</span>
+          </div>
+          <h3>Foundations of Information Science</h3>
+          <p>
+            Surveyed the evolution and scope of information science, covering how information is
+            represented, organized, retrieved, and governed. Examined human information-seeking
+            behavior, digital information policy, and scholarly communication — foundational
+            context for understanding both the design of data systems and the governance
+            structures that shape how technology affects people.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">Information Policy</span>
+            <span class="course-tag">Data Governance</span>
+            <span class="course-tag">Ethics</span>
+          </div>
+        </div>
+        <div class="course-card" data-school="unc">
+          <div class="course-meta">
+            <span class="course-code">PHIL 143</span>
+            <span class="school-badge">UNC Chapel Hill</span>
+          </div>
+          <h3>AI and the Future of Humanity</h3>
+          <p>
+            Analyzed the philosophical and societal implications of artificial intelligence,
+            virtual reality, and biological augmentation — including questions about AI risk
+            and benefit, algorithmic bias, moral constraints on AI systems, and the
+            relationship between human and machine decision-making. Strengthened my ability
+            to anticipate the downstream effects of the systems I help build.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">AI Ethics</span>
+            <span class="course-tag">Algorithmic Bias</span>
+            <span class="course-tag">Responsible AI</span>
+            <span class="course-tag">Philosophy of Technology</span>
+          </div>
+        </div>
+
+        <div class="course-card" data-school="unc">
+          <div class="course-meta">
+            <span class="course-code">INLS 523</span>
+            <span class="school-badge">UNC Chapel Hill</span>
+          </div>
+          <h3>Introduction to Database Concepts &amp; Applications</h3>
+          <p>
+            Designed and implemented relational database systems using SQL, with emphasis on
+            semantic modeling, normalization, indexing, and query construction. Database
+            architecture is the infrastructure layer underlying analytics pipelines, machine
+            learning systems, and data products — understanding it deeply is essential to
+            building technology that actually works at scale and can be trusted.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">SQL</span>
+            <span class="course-tag">Relational Modeling</span>
+            <span class="course-tag">Data Systems</span>
+          </div>
+        </div>
+
+        <div class="course-card" data-school="unc">
+          <div class="course-meta">
+            <span class="course-code">COMP 110</span>
+            <span class="school-badge">UNC Chapel Hill</span>
+          </div>
+          <h3>Introduction to Programming</h3>
+          <p>
+            Built foundational Python programming skills with a focus on problem decomposition,
+            algorithms for data analysis, abstraction design, and computing ethics. Emphasized
+            applying computational thinking to real-world problems — directly supporting data
+            science workflows and building an understanding of how the design choices embedded
+            in code carry real consequences for real people.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">Python</span>
+            <span class="course-tag">Algorithms</span>
+            <span class="course-tag">Computing Ethics</span>
+          </div>
+        </div>
+
+        <div class="course-card" data-school="unc">
+          <div class="course-meta">
+            <span class="course-code">MATH 115</span>
+            <span class="school-badge">UNC Chapel Hill</span>
+          </div>
+          <h3>Reasoning with Data: Navigating a Quantitative World</h3>
+          <p>
+            Applied mathematical and statistical methods to authentic societal problems —
+            including voting systems, public health and risk, personal finance, and human
+            behavior. Sharpened the ability to interpret quantitative evidence critically
+            and communicate data-driven insights clearly, skills that are essential when
+            building systems meant to inform consequential decisions.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">Statistical Reasoning</span>
+            <span class="course-tag">Quantitative Analysis</span>
+            <span class="course-tag">Societal Applications</span>
+          </div>
+        </div>
+
+        <div class="course-card" data-school="unc">
+          <div class="course-meta">
+            <span class="course-code">POLI 281</span>
+            <span class="school-badge">UNC Chapel Hill</span>
+          </div>
+          <h3>Data in Politics I: An Introduction</h3>
+          <p>
+            Examined the transformative effect of the Information Revolution on policy,
+            journalism, law, and public decision-making. Developed hands-on skills in
+            handling and analyzing data to address important social problems. This course
+            deepened my understanding of how data shapes power — and how responsible,
+            accurate analysis is critical to systems that are meant to serve the public interest.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">Data Analysis</span>
+            <span class="course-tag">Public Policy</span>
+            <span class="course-tag">Civic Applications</span>
+          </div>
+        </div>
+
+        <!-- ── RIT COURSES ── -->
+
+        <div class="course-card" data-school="rit">
+          <div class="course-meta">
+            <span class="course-code">STAT 146</span>
+            <span class="school-badge rit">Rochester Institute of Technology</span>
+          </div>
+          <h3>Statistics II</h3>
+          <p>
+            Developed advanced inferential statistics skills including multiple regression,
+            analysis of variance (ANOVA), hypothesis testing, and predictive modeling using
+            Minitab. These methods form the quantitative backbone of data science — enabling
+            evidence-based conclusions from complex datasets and the ability to evaluate
+            whether a model's outputs should actually be trusted.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">Regression Analysis</span>
+            <span class="course-tag">ANOVA</span>
+            <span class="course-tag">Predictive Modeling</span>
+            <span class="course-tag">Minitab</span>
+          </div>
+        </div>
+
+        <div class="course-card" data-school="rit">
+          <div class="course-meta">
+            <span class="course-code">MGIS 130</span>
+            <span class="school-badge rit">Rochester Institute of Technology</span>
+          </div>
+          <h3>Information Systems &amp; Technology</h3>
+          <p>
+            Explored enterprise information systems, IT governance frameworks, and the strategic
+            integration of technology with business operations. Understanding how organizations
+            manage information infrastructure — including security, compliance, and system
+            design — builds the operational context needed to create technology that functions
+            well within real-world institutional constraints.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">IT Strategy</span>
+            <span class="course-tag">Systems Analysis</span>
+            <span class="course-tag">Compliance</span>
+          </div>
+        </div>
+
+        <div class="course-card" data-school="rit">
+          <div class="course-meta">
+            <span class="course-code">MGMT 340</span>
+            <span class="school-badge rit">Rochester Institute of Technology</span>
+          </div>
+          <h3>Business Ethics and Corporate Social Responsibility</h3>
+          <p>
+            Examined ethical frameworks applied to business at both macro and micro levels —
+            covering stakeholder theory, corporate governance, product safety, employee rights,
+            environmental responsibility, and ethical leadership. Directly relevant to the
+            challenge of building technology responsibly: the gap between innovation and
+            accountability is exactly the kind of problem this course trained me to identify,
+            reason through, and address.
+          </p>
+          <div class="course-tags">
+            <span class="course-tag">Business Ethics</span>
+            <span class="course-tag">Stakeholder Theory</span>
+            <span class="course-tag">Corporate Governance</span>
+            <span class="course-tag">Responsible Innovation</span>
+          </div>
+        </div>
+
+        
+
+      </div><!-- /course-grid -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Benjamin R. Cerreta · University of North Carolina at Chapel Hill</p>
+  </footer>
+
+  <script>
+    const tabs = document.querySelectorAll('.tab-btn');
+    const cards = document.querySelectorAll('.course-card');
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const filter = tab.dataset.filter;
+        cards.forEach(card => {
+          card.style.display = (filter === 'all' || card.dataset.school === filter) ? 'flex' : 'none';
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
