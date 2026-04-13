@@ -344,9 +344,8 @@ a:hover { color: var(--unc-navy); }
 /* Activity photo */
 .activity-photo {
   width: 100%;
+  height: auto;
   border-radius: 6px;
-  object-fit: cover;
-  max-height: 220px;
   margin-top: 1rem;
   border: 1px solid var(--border);
   box-shadow: 0 2px 8px rgba(19,41,75,0.08);
@@ -451,19 +450,4 @@ footer {
   gap: 0.45rem;
   padding: 0.6rem 1.4rem;
   background: transparent;
-  color: var(--unc-navy);
-  border: 1.5px solid rgba(19,41,75,0.3);
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  text-decoration: none;
-  transition: border-color 0.2s, background 0.2s, transform 0.2s, box-shadow 0.2s;
-}
-.hero-btn-secondary:hover {
-  border-color: var(--unc-navy);
-  background: rgba(19,41,75,0.05);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(19,41,75,0.10);
-}
+  color: var(--unc
